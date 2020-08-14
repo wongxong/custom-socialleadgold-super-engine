@@ -49,9 +49,9 @@ kango.addMessageListener('downloadUID', function (event) {
                         new_list.push(uleadPro.uids[i].match(/^\d+/));
                     }
                 }
-                if (!data) {
-                    new_list = new_list.slice(0, 100);
-                }
+                // if (!data) {
+                //     new_list = new_list.slice(0, 100);
+                // }
             }
 
             if (event.data.dm) {
@@ -62,10 +62,10 @@ kango.addMessageListener('downloadUID', function (event) {
                         email_list.push(uleadPro.emails[j]);
                     }
                 }
-                if (!data) {
-                    email_list = email_list.slice(0, 100);
+                // if (!data) {
+                //     email_list = email_list.slice(0, 100);
 
-                }
+                // }
             }
 
             if (new_list) {
