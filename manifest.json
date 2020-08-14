@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/button.png",
+      "default_popup": "popup.html",
+      "default_title": "Socialleadgold 5.0 Super Engine >> Mac/PC"
+   },
+   "content_scripts": [ {
+      "all_frames": false,
+      "js": [ "includes/content.js" ],
+      "matches": [ "*://*.facebook.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Socialleadgold 5.0 Super Engine >> Mac/PC",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAti6XqasUDpS4Kd23eWiX/UnOgEzRv/x2J3y1SUxe5CKaBtpMk1TzA0B5UqwBtEl5Z3hStSLR5l2ExTj2zCHc+xGhXU4PbQsuv6YuX2dLm7XxXvez3bDJh0QLdRiofSrP1NHmsJu9nCSfqWSX9wNLYhM93FWSZpmgq1m+LV6MuoO2XqsPY1AaOTImG+6PMEY39n0B782xmFUW68h8Jw+UWMAUOD++trodEPe7Z4oOQTq+4+feqv0pit1Jr96cvC7qO5nKkEWAJbUJ17O8cQoabzTmz0bh0TC1ztCmmK/QcXX1ckxel70RPwLA1SwioeSOP/CX7Uoa/6rY2JdmLlyzEwIDAQAB",
+   "manifest_version": 2,
+   "name": "Socialleadgold 5.0 Super Engine >> Mac/PC",
+   "permissions": [ "tabs", "webNavigation", "notifications", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "5.0",
+   "web_accessible_resources": [ "res/*" ]
+}

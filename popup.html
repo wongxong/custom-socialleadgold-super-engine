@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/pure-nr-min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body >
+
+<!--style="-->
+<!--max-width: 1200px;-->
+<!--min-height: 1300px;-->
+<!--height: 1300px;-->
+<!--overflow: hidden!important;-->
+<!--"-->
+
+<!--style="-->
+<!--max-width: 1200px;-->
+<!--min-height: 1300px;-->
+<!--height: 1300px;-->
+<!--overflow: hidden!important;-->
+<!--"-->
+<span class="title" data-url="http://socialleadgold.com"></span>
+    <a href="http://socialleadgold.com/help" target="_blank"
+       style="float: right; margin-bottom: 5px; margin-top: -57px; padding-right: 9px; color: rgb(255, 255, 255);">Help?</a>
+    <div class="container">
+        <table>
+            <tr>
+                <td style="padding-left: 23px; color: red; width: 164px; font-size: 12px;"><span id="status"></span></td>
+                <td style="font-size: 18px; padding-left: 25px; width: 164px;"><span id="uidcount" >0</span></td>
+            </tr>
+        </table>
+        <center>
+         <input type="radio" id="downloadId" name="d"><label for="downloadId"> Download Uids</label>
+        <input type="radio" id="downloadEmail" name="d" style="margin-left: 45px;" checked><label for="downloadEmail"> Download Emails</label></center>
+        <!--<td><input type="checkbox" id="randomDelay"><label for="randomDelay">Random Delay</label></td>-->
+        <br>
+        <img class="btn" id="doclick" src="icons/get-ids.png" style="margin-bottom: 5px; margin-top: 12px; margin-left: 16px; float: left;">
+        <img class="btn" id="clearall" src="icons/clear-all.png" style="margin-bottom: 5px; float: right; margin-top: 12px; margin-right: 14px;">
+        <img class="btn" id="download" src="icons/download-ids.png" style="margin-bottom: 5px; margin-top: 3px; float: right; margin-right: 14px;">
+    </div>
+    <div class="types">
+        <div class="common-types">
+            <label for="normal-mode"><input type="radio" id="normal-mode" name="mode">  Normal Mode</label>
+            <label for="batch-mode"><input type="radio" id="batch-mode" name="mode">  Batch Mode</label>
+        </div>
+        <div class="batch-types">
+            <input type="checkbox"  id="comments-type"/><label for="comments-type">  Comments</label>
+            <input type="checkbox"  id="likes-type"/><label for="likes-type">  Likes</label>
+            <input type="checkbox"  id="shares-type"/><label for="shares-type">  Shares</label>
+        </div>
+    </div>
+    <div class="options">
+        <label for="delay">Batch delay <input type="text" id="delay" value="2" style="width: 50px;" placeholder="0-999"/>  <i>Sec</i></label>
+        <label for="max-result">Max results <input type="text" id="max-result" style="width: 50px;" value="7000"/></label>
+    </div>
+    <div id="notActive"><span>You are using a Trial version limited to <b>100</b> IDs/Emails.<br/><a href="#"
+                                                                                                        style="color: Blue; font-weight: bold">Click
+        Here </a> To activate your FULL version.</span><br>
+        <br>
+        Purchase your Full License  <a href="http://www.socialleadgold.com/buy" target="_blank">HERE</a>
+    </div>
+<center>
+    <div class="pure-form  scodeArea">
+        <div style="height: 0.6em"></div>
+        <label for="userName" style="font-weight: bold">Login to active :</label>
+
+        <div style="height: 0.6em"></div>
+        <input class="pure-input pure-input-1-2" type="text" id="userName" placeholder="user name">
+        <input class="pure-input pure-input-1-2" style="margin-top: 5px" type="password" id="password" placeholder="password"><br>
+        <input  checked type="checkbox"   style="margin-top: 5px; display: inline-block"  id="remember">
+        <label for="remember">Remember Credentials</label>
+
+        <div style="height: 1em"></div>
+
+        <button id="active" class="pure-button pure-button-primary">Active</button>
+        <button id="cancel" class="pure-button pure-button-hover">Cancel</button>
+    </div>
+
+
+    <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+        </center>
+<center><img src="icons/line.png"></center>
+<center>Use the built in <b>Quick Search Parameters</b> below:
+<img src="icons/line.png">
+</center>
+<!--webbot bot="HTMLMarkup" startspan --><div style="overflow: hidden; height: 714px; position: relative; margin-left: 5px; margin-top: 0px;" id="i_div"><iframe name="i_frame" src="http://www.roi.im/uidextractor/app.htm" style="border: 0pt none ; left: -723px; top: -37px; position: absolute; width: 1920px; height: 947px;" scrolling="no"></iframe></div><!--webbot bot="HTMLMarkup" endspan i-checksum="37652" -->
+</body>
+</html>

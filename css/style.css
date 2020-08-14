@@ -1,0 +1,124 @@
+body {
+    background: url("../icons/background_2.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background-color: #EDE9E3;
+	width: 400px;
+    height: 900px;
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 14px;
+}
+
+.btn {
+
+    cursor: pointer;
+    margin-top: 15px;
+}
+.title{
+    width: 220px;
+    height: 25px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+table{
+    margin-bottom: 36px;
+    margin-top: 63px;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 6px -2px dodgerblue !important;
+}
+
+.btn:hover {
+    box-shadow: 0 0 6px -2px green;
+    cursor: pointer;
+}
+
+.uid, h4 {
+    font-weight: bold;
+    color: rgb(59, 89, 152);
+}
+
+#uidcount {
+    font-weight: normal;
+}
+
+/*button {*/
+    /*width: 100%;*/
+/*}*/
+#notActive {
+    margin: 0 15px 0 5px;
+    display: none;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+	font-size: 12px;
+}
+#notActive>a{
+    text-decoration: underline;
+}
+
+#active, #cancel {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+label {
+    margin-bottom: 20px;
+}
+.scodeArea{
+    top:20%;
+    left: 5px;
+    position: absolute;
+    letter-spacing: normal;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 0 4px 4px gray;
+    padding: 0 5px 0 5px;
+    /*width: 380px;*/
+    display: none;
+}
+#scode{
+    font-size: 12px;
+}
+
+.container {
+    height: 180px;
+}
+
+.types{
+    margin: 0px 45px;
+    overflow: auto;
+}
+
+.common-types{
+    float: left;
+}
+
+.common-types label{
+    display: block;
+    margin: 5px 0;
+}
+
+.batch-types{
+    float: right;
+    margin: 28px 0 0 0;
+}
+
+.batch-types input[type="checkbox"]{
+    margin-left: 5px;
+}
+
+.options{
+    margin: 10px 40px;
+}
+
+.options label{
+    display: inline-block;
+    margin: 5px 15px 5px 0;
+}
+
+input[type="checkbox"]:disabled+label
+{
+    color:#ccc;
+}
